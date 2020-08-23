@@ -21,7 +21,7 @@ Besides software-development and computers i like:
 
 The list goes on, but that was from the top of my head in the moment.
 
-For the moment I'm in my journey to become a software-developer and studying at Borås Univesity? (An education with close ties to the companies demand). 
+For the moment I'm in my journey to become a software-developer and studying at Borås Univesity? (An education with close ties to the companies demand).
 
 **My Skillset**
 * .Net Core
