@@ -29,6 +29,9 @@ For the moment I'm in my journey to become a software-developer and studying at 
 * HTML
 * CSS
 * Javascript
-* Angular
+* Angular Intermdiate
 * Database (MS SQL Server, MySQL)
+* Basic Azure DevOps workflows
+* Command Line
+* Linux User
 
