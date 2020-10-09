@@ -12,7 +12,7 @@ What i want to run on my server:
 * Testing some webservice (ID server, RESTful apis, etc)
 * SSH PassForward to other servers.
 
-So after a fair bit of searching in drawers, closets, boxes I finally found one of my raspberries. Fired it up and YES!! it was equipped with a Raspbian installation. The only thing I needed to do was configure the network and find my ssh key so I could connect. Searched my secret notebook for credentials connecting and found it though it was over a tear I used it.
+So after a fair bit of searching in drawers, closets, boxes I finally found one of my raspberries. Fired it up and YES!! it was equipped with a Raspbian installation. The only thing I needed to do was configure the network and find my ssh key so I could connect. Searched my secret notebook for credentials connecting and found it though it was over a year I used it.
 
 Now I had everything in hardware I needed to get started. I've connected my pie to my computer with a Ethernet cable. I changed the adapter settings for my laptops Ethernet with the following command:
 
