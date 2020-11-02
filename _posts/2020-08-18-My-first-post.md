@@ -31,7 +31,7 @@ for(int i = 0; i < pizzas.Count; i++)
 
 **Look at that!** Beatifull!
 
-How didi I make this possible? Followed the steps in this [guide](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll). Had some trouble with dependencies so i stumbled into this site [StackOverflow](https://stackoverflow.com/questions/9725679/an-error-occurred-while-installing-nokogiri-1-5-2) (never happend before, am i right!?) 
+How did I make this possible? Followed the steps in this [guide](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll). Had some trouble with dependencies so i stumbled into this site [StackOverflow](https://stackoverflow.com/questions/9725679/an-error-occurred-while-installing-nokogiri-1-5-2) (never happend before, am i right!?) 
 
 Installed missing packages, because everyone runs a linux machine!?
 ```shell
