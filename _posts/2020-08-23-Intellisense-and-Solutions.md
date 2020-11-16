@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Intellisense on Solutions
+category: .Net
 ---
 
 So I just started a new project [PiCarDash][1], created a PoC with some basic elements. Later I wanted to make it more robust and easier to build on. I started to refactoring and made some classes and folder to make a solid structure for the application.

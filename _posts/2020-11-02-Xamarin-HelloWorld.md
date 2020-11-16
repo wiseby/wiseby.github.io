@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cross-Platform development with Xamarin Forms"
+category: [.Net, AsAStudent]
 ---
 
 Hello again! Long time now see.
