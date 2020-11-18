@@ -27,6 +27,13 @@ github_username:  wiseby
 linkedin_username: lucas-wiseby-52352216b
 web_site: https://wisebydesign.se
 
+# Defaults
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 # Build settings
 markdown: kramdown
 theme: minima
