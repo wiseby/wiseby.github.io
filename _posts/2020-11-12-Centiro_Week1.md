@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Intership Week One"
+title:  "Internship Week One"
 date:   2020-11-12 11:44:40 +0200
 categories: [The Internship]
 ---

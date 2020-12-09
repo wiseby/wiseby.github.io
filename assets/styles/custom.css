@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-flow: column wrap;
 }
 
 .row {
@@ -13,7 +14,6 @@
 .col {
   display: flex;
   flex: 1;
-  flex-flow: column wrap;
   align-items: center;
 }
 
