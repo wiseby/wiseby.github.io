@@ -15,10 +15,36 @@
   display: flex;
   flex: 1;
   align-items: center;
+  flex-flow: column wrap;
 }
 
-p > div.col {
+div.col > p {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+div.contact-info > p {
+  padding: 0px;
+  margin: 2px;
+}
+
+div.contact-info {
+  font-size: 10px;
+  padding: 2px;
+  align-items: flex-start;
+}
+
+div.contact-info > h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.profile-image {
+  align-items: flex-start;
 }
