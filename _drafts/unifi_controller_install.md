@@ -39,3 +39,11 @@ sudo systemctl restart unifi.service
 ```
 
 and the controller started successfully!
+
+Later i tried to adopt my AP wich is (name of device here!!!)
+But it didn'y find any devices. 
+I SSH:ed into the AP because it was accessable to the network correctly and issued the command:
+
+```
+set-inform http://ip-of-controller:8080/inform
+```
