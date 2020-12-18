@@ -25,17 +25,18 @@ div.col > p {
 }
 
 p {
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
 }
 
 div.contact-info > p {
+  font-size: 10px;
   padding: 0px;
   margin: 2px;
 }
 
 div.contact-info {
-  font-size: 10px;
   padding: 2px;
   align-items: flex-start;
 }
@@ -47,4 +48,8 @@ div.contact-info > h4 {
 
 .profile-image {
   align-items: flex-start;
+}
+
+li {
+  font-size: small;
 }
