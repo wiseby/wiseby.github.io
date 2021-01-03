@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Programmer Story"
-categories: [TheStoryOfMe]
+categories: ['The Journey']
 ---
 
 ## The Great Journey

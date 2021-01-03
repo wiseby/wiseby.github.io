@@ -1,6 +1,6 @@
 ---
 title: Deploy on Rasbian
-category: [linux, serverside]
+category: [Linux, ServerSide]
 ---
 
 update server system and install dependencies:

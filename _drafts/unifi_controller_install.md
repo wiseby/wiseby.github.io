@@ -1,13 +1,13 @@
 ---
 title: Unifi Controller on RaspberryPi
-category: [ubiquiti]
+category: [Ubiquiti]
 ---
 
-###Installing Unifi Controller using the following guide:
+**Installing Unifi Controller using the following guide:**
 
-https://pimylifeup.com/rasberry-pi-unifi/
+[PiMyLife](https://pimylifeup.com/rasberry-pi-unifi/)
 
-###There are some issues with the arguments to mongodb
+**There are some issues with the arguments to mongodb**
 
 I found this [link](https://community.ui.com/questions/Unifi-controller-on-Ubuntu-18-04/93b00b88-7542-40ba-bb0b-a80a84415e1d)
 
@@ -32,6 +32,8 @@ cleaned_args=$(echo $* | sed -e 's/--nohttpinterface//')
 exec /usr/bin/mongod.bin ${cleaned_args}
 ```
 
+This script made mongodb start with arguments supported by the version on my system.
+
 restarted unifi.service:
 
 ```
@@ -40,10 +42,14 @@ sudo systemctl restart unifi.service
 
 and the controller started successfully!
 
-Later i tried to adopt my AP wich is (name of device here!!!)
-But it didn'y find any devices. 
-I SSH:ed into the AP because it was accessable to the network correctly and issued the command:
+Later i tried to adopt my AP wich is a [UAP-AC-LR](https://dl.ubnt.com/qsg/UAP-AC-LR/).
+But it didn't find any devices. 
+I SSH:ed into the AP and issued the command:
 
 ```
 set-inform http://ip-of-controller:8080/inform
 ```
+
+In the future I'm going to extend my network with more products from Ubiquiti. First in is a edgeRouter so I can throw away my shitty all-in-one router I got from my ISP.
+
+**Stay tuned for a review!**
