@@ -39,3 +39,6 @@ It's also possible transfering a file from a remote host to the client machine (
 scp -r -F [shh_profile] [user@remote]:[path/to/transfer/copy] path/to/local/destination/
 ```
 
+At this point I'm doing all steps for deployment manually to get a better understanding over the process.
+In the future I'll move over to a more automated approach. Ansible is a interesting software that I want to get deeper into.
+
