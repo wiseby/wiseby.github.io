@@ -105,8 +105,6 @@ It feels like we are only scratching the surface of popular technologies.
 All in all this was a realy fun course and it made me eagerd to find out more about this wonderfull product.
 Maybe I publish my own app in the near future!
 
-One Xamarin Application in progress [DailyPrints](https://github.com/wiseby/DailyPrints)
-
 Thats all fokes. 
 
 Feeling lucky? Why not try [Xamarin](https://docs.microsoft.com/en-us/xamarin/get-started/) today?!
