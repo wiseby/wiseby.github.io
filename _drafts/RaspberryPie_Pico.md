@@ -21,3 +21,11 @@ Not fair, but here is a comparison of the Pico and a Arduino Uno:
 | Length | | 68.6 |
 | Width |  |53.4 mm |
 | Weight |    |	25 g |
+
+
+[AMPY Adafruit MicroPython Tool](https://github.com/scientifichackers/ampy)
+
+[MicroPyCli](https://github.com/BradenM/micropy-cli)
+
+PyMakr Extension
+

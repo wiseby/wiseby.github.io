@@ -14,7 +14,7 @@ Create a docker-compose.yml and describe every bit of your applications dependen
 sudo docker-compose up -d
 ```
 
-We needd to know what IP Address docker assigned our container. Here is how I discovered it for my mariadb container:
+We need to know what IP Address docker assigned our container. Here is how I discovered it for my mariadb container:
 ```
 {% raw %}
 sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ci_db_1
