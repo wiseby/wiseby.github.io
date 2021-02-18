@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SBC(Single Board Computer) server setup
-category: [Linux, SBC]
+title: Rpi server setup
+category: ['Linux', 'Raspberry Pi']
 ---
 
 So server, server, server, what to do with my buzzing server in the hallway?
