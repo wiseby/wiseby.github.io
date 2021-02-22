@@ -1,3 +1,3 @@
 ---
-title: "Learnto use One Edit GOOD!!!"
+title: "Learn to use One Edit GOOD!!!"
 ---
