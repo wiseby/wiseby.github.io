@@ -19,7 +19,7 @@ Besides software-development and computers i like:
 * 3D printing is a hobby of mine and goes hand-in-hand fixing broken stuff.
 * Helping people. Nothing beats the feeling when you helped someone and get that smile of gratitude from someone in need.
 
-The list goes on, but that was from the top of my head in the moment.
+The list goes on, but that was from the top of my head.
 
 For the moment I'm in my journey to become a software-developer and studying at Borås Univesity? (An education with close ties to the companies demand).
 
@@ -29,9 +29,8 @@ For the moment I'm in my journey to become a software-developer and studying at 
 * HTML
 * CSS
 * Javascript
-* Angular Intermdiate
+* Angular
 * Database (MS SQL Server, MySQL)
 * Basic Azure DevOps workflows
-* Command Line
-* Linux User
+* Linux User (Terminals FTW!)
 

@@ -29,6 +29,14 @@ Add repository GPG Key:
 sudo wget -O /etc/apt/trusted.gpg.d/unifi-repo.gpg https://dl.ui.com/unifi/unifi-repo.gpg
 ```
 
+**Update 28/2 2021**
+
+Made a system update and installed Raspberry Pi Os. Unifi installs openjdk-9-jre but openjdk-8-jre is needed.
+
+```bash
+sudo apt install openjdk-8-jre
+```
+
 Finally, Update and install the Controller Software:
 
 ```bash
@@ -36,6 +44,7 @@ sudo apt-get update && sudo apt-get install unifi -y
 ```
 
 **There are some issues with the arguments to mongodb**
+**Not needed the last time I installed on Raspberry Pi Os version 10 (Buster) this issue could have been fixed by ubiquity**
 
 I found this [link](https://community.ui.com/questions/Unifi-controller-on-Ubuntu-18-04/93b00b88-7542-40ba-bb0b-a80a84415e1d)
 
@@ -75,6 +84,22 @@ I installed it on a Raspberry Pi that sits on my main network panel and could be
 you could visit the address *http://localhost:8443*.
 
 The first time you do this there are some initial setup steps to make like setting up the root user, connect devices, create networks etc.
+
+Don't forget to open ports on the controller server:
+
+| Protocol  | Port | Description |
+|----|------------|-------------------------------------------------------------|
+|UDP |	3478      |	Port used for STUN.                                         |
+|UDP |	5514      |	Port used for remote syslog capture.                        |
+|TCP |	8080      |	Port used for device and controller communication.          |
+|TCP |	8443      |	Port used for controller GUI/API as seen in a web browser   |
+|TCP |	8880      |	Port used for HTTP portal redirection.                      |
+|TCP |	8843      |	Port used for HTTPS portal redirection.                     |
+|TCP |	6789      |	Port used for UniFi mobile speed test.                      |
+|TCP |	27117     |	Port used for local-bound database communication.           |
+|UDP |	5656-5699 |	Ports used by AP-EDU broadcasting.                          |
+|UDP |	10001     |	Port used for device discovery                              |
+|UDP |	1900      |	Port used for "Make controller discoverable on L2 network" in controller settings. |
 
 Later I tried to adopt my AP which is a [UAP-AC-LR](https://dl.ubnt.com/qsg/UAP-AC-LR/).
 But it didn't find any devices. 
