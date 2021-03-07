@@ -33,7 +33,7 @@ One of the downsides to this is code-duplication.
 
 
 
-**Todays Luke's Think About It:**
+#### Lukes off-topic Trivia
 
 Pink Floyds - Cymbaline sounds very much like Rick & Morty's - [Goodbye Moonman](https://www.youtube.com/watch?v=_UtHmqEJBZI) from the episode "Mortynight Run".
 A Great Song I'll tell ya! Wonder if Ryan Elder is a Pink Floyd fan?
