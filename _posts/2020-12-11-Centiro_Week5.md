@@ -23,7 +23,7 @@ What about the Corporate Culture? Different when working from home?
 Yes. It feels much better working from home. I think that it's something with the environment at the office that gives me some weird feelings.
 The important thing is to feel confident about our mission and know what to be done.
 
-Working as a pair workes pretty good but I sometimes feel the need to break out and finish some tasks alone. 
+Working as a pair work's pretty good but I sometimes feel the need to break out and finish some tasks alone. 
 We try to start the week with a "Weekly" to plan our goals for the week. 
 Picking apart bigger tasks so that we can work more independent. Until now we have worked with every task together in a form of pair-programming.
 I feel like I have the need of working on some tasks alone from time to time but still have colleagues/mate only a call away if I stumble in a hole.
