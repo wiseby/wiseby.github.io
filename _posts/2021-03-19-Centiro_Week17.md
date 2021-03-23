@@ -6,9 +6,11 @@ categories: [The Internship]
 
 **Cleaning the board**
 
-Monday morning started with a big cleanup of our Azure Board. Many stories where considered done and som deprecated. 
+Monday morning started with a big cleanup of our Azure Board. Many stories where considered done and some deprecated. 
 Our prioritization was then established with the order of the stories in the list, the most important story at the top.
 It then became clear what was a priority when someone else looked at the board.
+
+For the rest of the week we dived in on creating new features.
 
 **Github Projects**
 
