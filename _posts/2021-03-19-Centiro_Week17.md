@@ -17,7 +17,7 @@ For the rest of the week we dived in on creating new features.
 Github Projects is a great way of organize your project. My experience with Azure Boards have been a smooth ride. But with my Exam Project I wanted to go all-in Github.
 [GitHub Cli](https://github.com/cli/cli) was installed so I could utilize features as making Pull Requests from my terminal. This is a great way learning a new set of tools.
 
-The reason why I started to setup the boards was so I could set clear goals, because I feel that I'm getting stuck in what is needed to be done. Gonna take the weekend on working on these boards
+The reason why I started to setup the boards was so I could set clear goals, because I feel that I'm getting stuck in what is needed to be done. Gonna take the weekend on working on these boards.
 
 **Got The Job!**
 
