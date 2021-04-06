@@ -20,11 +20,11 @@ I think that I have manage to stir the pot so to speak, because now we have a sc
 Yeah, April 1st fools day. Funny prank from [StackOverflow](https://stackoverflow.com/) I must say. They added a popup when you copied code.
 
 <p align="center">
-  <img src="/assets/images/CopyPasteRemaining.png" alt="CopyPaste Joke Stackoverflow" style="text-center"/>
+  <img src="/assets/images/CopyPasteJoke.png" alt="CopyPaste Joke Stackoverflow" style="text-center"/>
 </p>
 
 They even had a mini keyboard with shortcuts made 🤣
 
-![Stackoverflow The Key](/assets/images/stack_aprilfool_keypad.png)
+![Stackoverflow The Key](/assets/images/StackAprilfoolKeypad.png)
 
 **Until Next Week. Happy Easter!**
