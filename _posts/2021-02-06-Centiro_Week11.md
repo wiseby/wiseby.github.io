@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internship Week Eleven"
+title: "Centiro Internship Week Eleven"
 categories: [The Internship]
 ---
 
@@ -10,7 +10,7 @@ Started to implement Direct Proxy on the client app. Worked great and could remo
 
 Made some changes in the api where endpoint urls where a bit funny looking. Noticed how easy it was changing code with the architecture we used.
 
-Getting better and better at breaking tasks apart. It helps me focus and if I notice other things in the code that needs fixing I simply create a new work-item for it to come back for later. 
+Getting better and better at breaking tasks apart. It helps me focus and if I notice other things in the code that needs fixing I simply create a new work-item for it to come back for later.
 
 #### There are more collections than Lists!
 
@@ -27,7 +27,7 @@ One thing that I learned during the Database course is the performance of querie
 
 This week I'm in need for a stand in code reviewer when I'm making Pull Requests.
 It would be nice having a developer who has experience in angular to add productive feedback for once. Sent out a request for reviewers to the project and got a developer from india to take on the mission. He is part of Centiros frontend team that does much of the web-applications and design system stuff.
-Hopefully he will give me the feedback I deserve! 
+Hopefully he will give me the feedback I deserve!
 
 #### GIT
 
@@ -35,6 +35,6 @@ Starting to get a hang of how to use git more efficiently, now I'm learning the 
 
 This weekend activity is to make a simple project for my latest purchase, the Raspberry Pi Pico!
 
-**Until next time! Stay frosty!(because it's -20 degrees Celsius! Put your Raggsockar* on!)**
+**Until next time! Stay frosty!(because it's -20 degrees Celsius! Put your Raggsockar\* on!)**
 
-**(swedish for thicker knitted socks)*
+\*_(swedish for thicker knitted socks)_

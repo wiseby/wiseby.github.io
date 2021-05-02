@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Internship Week One"
-date:   2020-11-12 11:44:40 +0200
+title: "Centiro Internship Week One"
+date: 2020-11-12 11:44:40 +0200
 categories: [The Internship]
 ---
 
@@ -19,18 +19,18 @@ Then we where away at our second meeting. This time we discussed our new assignm
 
 Tools to be used are the following:
 
-* Dapper for database interaction
-* ASP.NET Framework (notice not ASP.NET Core!)
-* Angular for WebbApplication
-* CI/CD with Azure DevOps
-* Deploying with OctopusDeploy
+- Dapper for database interaction
+- ASP.NET Framework (notice not ASP.NET Core!)
+- Angular for WebbApplication
+- CI/CD with Azure DevOps
+- Deploying with OctopusDeploy
 
 This application was already built at the time and in production. The problem was that it didn't scale well and the customer using it had some feedback to improve usability.
-So we needed to build it from scratch. The design and feel of the application was not yet decidied so for our first week we played around with the mockups we where given. 
+So we needed to build it from scratch. The design and feel of the application was not yet decidied so for our first week we played around with the mockups we where given.
 All projects was setup in version control (git in DevOps) and pipelines was also created and tested.
 
 Under these times when a pandemic is in full effect the workplace is little different from day to day. Both thursday and friday we worked from home. Centiro is a open-minded, modern workplace which makes working from a distance easy. We are using Microsoft Teams for communication.
 
-Not much work was done the first week, but I'm very excited and a lot to proove! The tech stack is also very intresting and goes into depth with alot of technology I wanted to dig deeper in for some time. 
+Not much work was done the first week, but I'm very excited and a lot to proove! The tech stack is also very intresting and goes into depth with alot of technology I wanted to dig deeper in for some time.
 
-Untill next friday, take care now! bye bye then! 
+Untill next friday, take care now! bye bye then!

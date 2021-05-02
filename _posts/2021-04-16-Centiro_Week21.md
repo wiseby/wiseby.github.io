@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Internship Week Twenty-One"
+title: "Centiro Internship Week Twenty-One"
 categories: [The Internship]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internship Week Thirteen"
+title: "Centiro Internship Week Thirteen"
 categories: [The Internship]
 ---
 
@@ -19,4 +19,3 @@ We will have the same approach next week with clear goals on a weekly basis.
 Thats a shorter friday post than normal, hopefully staying healthy onwards so I could be more productive and publish some more content to the site.
 
 **Until next week. Take care now! bye bye then!**
-

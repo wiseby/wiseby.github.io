@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internship Week Four"
+title: "Centiro Internship Week Four"
 categories: [The Internship]
 ---
 
@@ -25,4 +25,3 @@ Music Artist of the week is Queen, is there anybody out there that doesn't love 
 Can't imagine a world without them!
 
 Until next week, get Schwifty!!!
-

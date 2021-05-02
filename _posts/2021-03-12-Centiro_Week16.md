@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Internship Week Sixteen"
+title: "Centiro Internship Week Sixteen"
 categories: [The Internship]
 ---
 
-Worked most part of the week on the Client. Refactoring to use modules with *separation of concern* in mind. This made the code much easier to read.
+Worked most part of the week on the Client. Refactoring to use modules with _separation of concern_ in mind. This made the code much easier to read.
 
 Got some correction to make proper use of REST methods. GET should be used when querying results and fetching data, It should also leave the resource unchanged.
 The filtering and pagination where going to be added as query-parameters in the url.
@@ -24,11 +24,11 @@ Communication when builds fail in pipelines are not that good. Who takes respons
 
 **Making a mock of my api**
 
-I'm going for a *API first* approach when developing this project, designing the interface for the system is the key to make this project succeed.
+I'm going for a _API first_ approach when developing this project, designing the interface for the system is the key to make this project succeed.
 After all this is intended to be a open-source base system anyone can make a fork of to make a more personal touch to. [JsonServer](https://www.npmjs.com/package/jsonserver) was used for the client app to mock an api. Here I could quickly set up my idea of how the interface to the backend would look like, focusing on what was needed for the different views of the app.
 
 **The goal for my project**
 
-The problem I would like to solve with this project is statistics and monitoring my home. Sure, switching things on/off, adjusting lights, reading motion, etc is cool but not the most important thing to me. I would like to measure room temperature and energy consumption of my home. This is so I could make my home more energy efficient. Gathering data to be processed by AI perhaps? 
+The problem I would like to solve with this project is statistics and monitoring my home. Sure, switching things on/off, adjusting lights, reading motion, etc is cool but not the most important thing to me. I would like to measure room temperature and energy consumption of my home. This is so I could make my home more energy efficient. Gathering data to be processed by AI perhaps?
 
 **Until next time! Take care now, bye bye then!**

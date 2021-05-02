@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internship Week Nineteen"
+title: "Centiro Internship Week Nineteen"
 categories: [The Internship]
 ---
 
@@ -11,7 +11,7 @@ Can't say that I have a lot to talk about. Worked on features as usual to wrap u
 
 One topic that we discussed was the contribution to the design-system and how it should be easier. Instructions on how to setup an environment to build, run and test new components is of great importance if anyone should even consider to contribute. Removing as many obstacles as possible to encourage developers to add new features to the system is a difficult task, I say.
 
-*“Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to not using the design-system and installing additional npm packages.”*
+_“Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to not using the design-system and installing additional npm packages.”_
 
 I think that I have manage to stir the pot so to speak, because now we have a scheduled meeting to discuss the topic with the creators of the system themselves. If we get this right, I'm most certain that it will flourish and expand to be a great asset when building frontend applications and services!
 

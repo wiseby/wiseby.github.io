@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internship Week Fourteen"
+title: "Centiro Internship Week Fourteen"
 categories: [The Internship]
 ---
 
@@ -31,4 +31,3 @@ This is the place I'm searching for! Feeling that I'm in the Passion zone. I kno
 **New series available on Disney+ Star, Solar Opposites created by Justin Roiland (also known for the adventures of Rick and Morty) great show!**
 
 **Until next week! Wubba lubba dub dub!**
-
