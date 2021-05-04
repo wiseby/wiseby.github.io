@@ -17,7 +17,7 @@ As a frontend developer should there some kind of abstraction to what we questio
 Do we need understanding on how the application should be used? Or is there an abstraction level to the developer to not make design decision?
 My opinion is that when working at a bigger company there should be a level of abstraction that allows me to focus on problem in my area of expertise.
 It's also important to ask questions that I can relate to and trust the people I work with to do there job.
-If I was to work at a smaller company there comes more responsibility to make different roles more overflowing and working together to solve problems regarding a wider range of
+If I was to work at a smaller company there comes more responsibility to make different roles more overflowing and working together to solve problems regarding a wider range of technologies and experiences.
 
 What about the Corporate Culture? Different when working from home?
 Yes. It feels much better working from home. I think that it's something with the environment at the office that gives me some weird feelings.
