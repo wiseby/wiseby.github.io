@@ -21,7 +21,7 @@ We discussed what was left before releasing it in PROD environments and the Nova
 
 Our mentor asked if we could write a little summary of our time so he could post it at Centiros intranet called "Holonet". This was so people could pay attention to the work we have done during our assignment.
 
-I got a call from an indian friend who wanted help with the setup of another SelfService application. Can you believe it, me helping senior developers? I've got this warm feeling afterwards, that I actually managed to explain something. I'm getting more and more confident in myself and this is a huge steps for me. Hopefully I'll become a master like my mentor and maybe take on my own apprentice some day.
+I got a call from an indian colleague who wanted help with the setup of another SelfService application. Can you believe it, me helping senior developers? I've got this warm feeling afterwards, that I actually managed to explain something. I'm getting more and more confident in myself and this is a huge steps for me. Hopefully I'll become a master like my mentor and maybe take on my own apprentice some day.
 
 **Final Thoughts**
 
