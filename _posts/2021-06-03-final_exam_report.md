@@ -21,7 +21,9 @@ It will run on any server that supports the dotnet runtime specified in the docu
 
 The server I always think of when hosting something like this is the Raspberry Pi Single Board Computer. It's affordable for everyone.
 
-The hardware is a mixture of Raspberry Pies, Arduinos and other micro-controllers that utilizes a wider range of sensors for home-automation purposes. The Server part of the project is focusing on software written in C# running a .NET environment. As for the nodes that are smaller and mostly battery-powered, are running code written in languages suitable for micro-controllers. I'm planning to write programs for these smaller devices in Lua, C++ and Python/MicroPython. Raspberry Pi Zeros are used when heavier loads like video-surveillance should be implemented. The RPi Zero is based upon a ARMv6 and is there by not compatible with .NET runtime, Python will be used instead with the use of Flask which is a MicroWeb-Framework (communicating through http/https).
+The hardware is a mixture of Raspberry Pies, Arduinos and other micro-controllers that utilizes a wider range of sensors for home-automation purposes. The Server part of the project is focusing on software written in C# running a .NET environment. As for the nodes that are smaller and mostly battery-powered, are running code written in languages suitable for micro-controllers. I'm planning to write programs for these smaller devices in Lua, C++ and Python/MicroPython. 
+
+Raspberry Pi Zeros are used when heavier loads like video-surveillance should be implemented. The RPi Zero is based upon a ARMv6 and is there by not compatible with .NET runtime, Python will be used instead with the use of Flask which is a MicroWeb-Framework (communicating through http/https).
 
 ### OSS - Open Source Software
 
@@ -39,7 +41,7 @@ The project is open sourced and located at github under the repositories:
 **MongoDB**
 
 Decided to use MongoDB for all my data. It's going to be a hole new experience to add in my portfolio!
-The Mongo Driver is mature enough and super easy to use, I've heard! Running MongoDB in docker with a simple docker-compose.yml straight from [dockerhub example](https://hub.docker.com/_/mongo). This composition also includes a web-administration tool that makes it easy examining the database with a web-browser.
+The Mongo Driver is mature enough and super easy to use, I've heard! Running MongoDB in docker with a simple docker-compose.yml straight from [dockerhub](https://hub.docker.com/_/mongo). This composition also includes a web-administration tool that makes it easy examining the database with a web-browser.
 
 **.NET 5.0**
 
@@ -52,9 +54,11 @@ To communicate with smaller devices and micro-controllers I needed a lighter tra
 
 **HTML, Javascript/Typescript, Angular**
 
-The frontend part of the project is built with Angular. By isolating the application inside the web-api it becomes easy to move to a separate repository later, but for simplicity it can live and be served under the api root path. When I decided in what form of user interface I wanted I considered to either build an app with Xamarin or build a web-application. My experience in Angular is far more superior than in Xamarin.Forms so I went with a web-app using Angular, this was so I could focus making my project the best I could on the time I was given, getting up and running with Xamarin again eats time that I don't have!
+The frontend part of the project is built with Angular. By isolating the application inside the web-api it becomes easy to move to a separate repository later, but for simplicity it can live and be served under the api root path. 
 
-Drawing some basic charts with [chart.js](https://www.npmjs.com/package/chart.js). Chart.js is very potent and could produce all charts for the needs of presenting the data.
+When I decided in what form of user interface I wanted I considered to either build an app with Xamarin or build a web-application. My experience in Angular is far more superior than in Xamarin.Forms so I went with a web-app using Angular, this was so I could focus making my project the best I could on the time I was given, getting up and running with Xamarin again eats time that I don't have!
+
+Statistics for the data would be presented by diagrams using [chart.js](https://www.npmjs.com/package/chart.js). Chart.js is very potent and could produce all charts for the needs of presenting the data.
 
 When it was time to style the webapp I made the decision of using a CSS framework. [Bulma](https://bulma.io/) was used and I could focus on other things than CSS.
 
@@ -98,7 +102,9 @@ You don't set up a deadline with this feature but it's a clear goal and you can 
 **Generic Data**
 
 A red thread in this project has been that the data from all IoT devices should be in a generic format. JSON format with flat simple key/values. 
-A IoT device could be equipped with a bunch of sensors and they would be represented with a key and value for each. It's up to the client to map these values and set there definitions. This makes the nodes stupid and there only job is to gather data from sensor and sending them to the server.
+A IoT device could be equipped with a bunch of sensors and they would be represented with a key and value for each. It's up to the client to map these values and set there definitions. This makes the nodes stupid and there only job is to gather data from sensor and sending them to the server. The payload consists of a client identifier and the values.
+
+The server doesn't really care about the format of the data. The data should be interpreted by a human and the decisions on how certain data should affect different aspect of the home is defined with the admin panel. The only thing the server does is to add a timestamp to the reading. It's essential to know the time when filtering and analyzing the data.
 
 **Server Focus**
 
@@ -122,33 +128,49 @@ This is an example for how I figured out how to initialize a Node with Rest-Api 
 
 ![Node Init Sequence Diagram](/assets/images/Node_Init_Connect_Success.png "Node Init Sequence Diagram")
 
-You can relate to it if you ever have configured a Wifi extender/hotspot.
+You can relate to it if you have ever configured a Wifi extender/hotspot.
+
+### Retrospective
 
 **The hard parts**
 
 The hardest part is getting everything up and running with the right architecture in place.
-It's like bootstrap phase, when everything is in place, things would get much clearer when working on a new feature.
+It's like a bootstrap phase, when everything is in place, things would get much clearer when working on a new feature.
 
-- Load configuration
-- Setup Dependency Injection with Autofac
-- Setup logging with Serilog
-- Mapping Configuration for AutoMapper
+- Creating an entry point for execution of the program
+- Load configurations
+- Setup Dependency Injection
+- Setup logging
+- etc.
 
-A lot of these dependencies had seamless integration to Asp.Net application with extension libraries available as nuget-packages.
+A lot of these dependencies I used had seamless integration to Asp.Net application with extension libraries available as nuget-packages.
 This has taken some time to get right but is now working as it should. 
 
 You better get used to reading documentation because you are not going to write all code yourself, you are going to use other peoples code. My bet is that it comes with a handbook, if it has a handbook, it's probably something that is supposed to be used by others. 
 
-Sometimes it gets hard focusing on single issues, one thing leads to another and all of a sudden you find yourself far away from the starting line.  
-It's all about having the proper conditions when solving a problem, are you missing anything, you have to take a few steps back and make the foundation ready to build that new shiny feature!
-
-Discovering parts that is missing and evaluating on the most important steps to take and when to take a shortcut is also something that comes up frequently.
-
-Struggling with the usual data structure to be sent from my API. I got my hands dirty and started investigating if there was a standard for this kind of thing, and yes there was. There was something called [JSON:API Specification](https://jsonapi.org/) which covered all of my questions. It was a bit overwhelming and a lot to take in, but ended up using the more strict specs that where described as a "Must".
-
 I often find myself magically trapped in reading documentation! I'm trying my hardest to stick with things I already know, but it's hard, wouldn't you want to implement all the new exciting technologies you read about right know!
 
+Sometimes it gets hard focusing on single issues, one thing leads to another and all of a sudden you find yourself far away from the starting line.  
+It's all about having the proper conditions when solving a problem, are you missing anything? Then you have to take a few steps back and make the foundation ready to build that new shiny feature!
+
+Discovering parts that is missing and evaluating on the most important steps to take and when to take a shortcut is also something that comes up frequently. On the other hand, this could get messy later. There is this thing called technical debt that could get ugly in the end.
+
+Struggling with the usual data structure to be sent from the API. I got my hands dirty and started investigating if there was a standard for this kind of thing, and yes there was. There was something called [JSON:API Specification](https://jsonapi.org/) which covered all of my questions. It was a bit overwhelming and a lot to take in, but ended up using the more strict specs that where described as a "Must".
+
+I spent way to much time on the frontend! It's a heavy part when everything should be collected and represented appropriately. It's a part that will be rebuilt more than a couple of times.
+
+**The Data Collections**
+
 The data collections could be huge when it's gathered to show statistics. Restricting clients publications to server should be limited some how. Maybe with a default filter. One fix could be to configure a nodes definitions to store how often a reading should be persisted into the database, all latest temperature readings already has a place inside a node object, so live updates should be supported this way even if I decide to persist let's say one reading every hour?
+
+Making MongoDB perform well has been a part that I left out but It's an important one that ends up high on my next iterations priority list. 
+
+- What happens when the collections get to big?
+- Do I need a separate storage for the server, a USB drive perhaps?
+- How do I configure indexes to improve search performance?
+- Is MongoDb the right choice? Maybe switch to SQL?
+
+**Throw it in the backlog**
 
 Plans doesn't always end up as you thought. I had to abandon a bunch of interesting ideas and technologies.
 
@@ -159,13 +181,15 @@ Plans doesn't always end up as you thought. I had to abandon a bunch of interest
 - Frontend Testing
 - End To End Testing
 
+It's not the end. I'll have a chance on improving the system, and implement what I need.
+
 **Features in coming iterations could be:**
 
 - SignalR could be nice so that the UI could be updated when states change in backend. (notifications, live updates on readings, etc).
 - Adding Microsoft.Extensions.Hosting to MqttServer project as with [this](https://dev.to/krusty93/net-core-5-0-console-app-configuration-trick-and-tips-c1j) articles content would be something to look into later.
 - Implement a [MQTT Client](https://www.npmjs.com/package/mqtt) in the WebApp. Easy debugging and a admin-tool.
 - Following [JSON:API Specifications](https://jsonapi.org/) and integrating a [serializer extension](https://github.com/codecutout/JsonApiSerializer).
-- Guides on publishing to a production server (Raspberry Pie).
+- Guides on publishing to a production server (Raspberry Pi).
 - Extend documentations with a Wiki
 - Expand Node IoT unit library with more variations of sensors.
 - Improve test coverage
@@ -181,5 +205,3 @@ There are so much code out there! Using brilliant tools and libraries that other
 
 In the end, If no one uses your code, there where no reason to write it in the first place!
 I don't know if any one else will use it, but I will definitely make this work for me! 
-
-**Until next post. Make a contribution to the OpenSource community!**
