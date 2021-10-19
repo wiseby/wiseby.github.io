@@ -39,6 +39,7 @@ defaults:
       type: posts # Apply the default values below only to posts
     values:
       image: /assets/images/EZ_CloseUp.png
+      thumbnail: /assets/images/EZ_CloseUp.png
 
 # Build settings
 markdown: kramdown
