@@ -34,6 +34,11 @@ defaults:
       path: "assets/images"
     values:
       image: true
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: posts # Apply the default values below only to posts
+    values:
+      image: /assets/images/EZ_CloseUp.png
 
 # Build settings
 markdown: kramdown
