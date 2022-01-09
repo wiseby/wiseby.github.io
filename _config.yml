@@ -23,8 +23,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a peaceful and simple place to be.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  wiseby
+github_username: wiseby
 linkedin_username: lucas-wiseby-52352216b
+twitter_username: Luke_TheLucky
 web_site: https://wisebydesign.se
 
 # Defaults
@@ -33,6 +34,12 @@ defaults:
       path: "assets/images"
     values:
       image: true
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: posts # Apply the default values below only to posts
+    values:
+      image: /assets/images/EZ_CloseUp.png
+      thumbnail: /assets/images/EZ_CloseUp.png
 
 # Build settings
 markdown: kramdown
@@ -40,7 +47,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jemoji
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

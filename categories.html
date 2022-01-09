@@ -4,9 +4,8 @@ permalink: /categories/
 title: Categories
 ---
 
-
 <div id="archives">
-{% for category in site.categories %}
+  {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
@@ -20,5 +19,5 @@ title: Categories
     </article>
     {% endfor %}
   </div>
-{% endfor %}
+  {% endfor %}
 </div>
