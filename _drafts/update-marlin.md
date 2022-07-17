@@ -1,6 +1,6 @@
 ---
 title: Marlin Firmware Upgrade
-category: [Arduino, 3d-printing]
+categories: [Arduino, 3D-Printing]
 ---
 
 Install Arduino IDE
