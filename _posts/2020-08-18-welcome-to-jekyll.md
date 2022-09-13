@@ -33,6 +33,6 @@ Installation issues with som gem packages.
 - The new version of Jekyll added support for Ruby 3.0 and 3.1
 - Needed to add gem [**webrick**](https://jekyllrb.com/news/2022/03/27/jekyll-3-9-2-released/)
 
-I also had errors with nokogiri, but that was relates to gems not working with ruby version 3 and missing dependencies for native libraries such as libxml2.
+I also had errors with nokogiri, but that was related to gems not working with ruby version 3 and missing dependencies for native libraries such as libxml2.
 
 Link to fix [Trouble of Nokogiri gem installing](https://7in4tranlh.wordpress.com/2016/10/26/trouble-of-nokogiri-gem-installing/)
