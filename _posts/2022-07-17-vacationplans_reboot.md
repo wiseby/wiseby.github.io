@@ -6,7 +6,7 @@ categories: ["The Journey"]
 
 ### First of all some news.
 
-I'm starting a new job in mid september as a software-developer at a company named [Maximer](https://www.maksimer.com/). This is a smaller company in Borås (the reason I'm changing job, Centiro was a great employer in many ways), a newly started office part of a bigger franchise, the office in Borås houses around 7 employees focusing on E-Commerce. I had a lunch with the whole team a couple of weeks ago and this feels soo good, I think that I will fit perfectly.
+I'm starting a new job in mid september as a software-developer at a company named [Makimer AB](https://www.maksimer.com/). This is a smaller company in Borås (the reason I'm changing job, Centiro was a great employer in many ways), a newly started office part of a bigger franchise, the office in Borås houses around 7 employees focusing on E-Commerce. I had a lunch with the whole team a couple of weeks ago and this feels soo good, I think that I will fit perfectly.
 
 I've started a Instagram account called [wiseby_design](https://www.instagram.com/wiseby_design/) where I will post mostly 3D-Printing related post but also topics about electronics and programming. this was a much more pleasant place then twitter so I deleted my twitter account for a couple of reasons, mainly because some idiot tried to buy it and that there are so much crap on there. Feel free to contact me there as well.
 
@@ -25,7 +25,7 @@ but of course I can't miss out on time doing the things I love, computer stuff!
 
 Yesterday when I was with my family for a long car trip I had the time to think and reflect on many things. one of those things was about if I should make a vacation cleanup for my private laptop. It's still going strong after almost 3 years, and I think that I can squeeze at least one more year out of it. But the question was on how I wanted to set it up this time? Today I dual boot it with one Windows 10 install and one Ubuntu install and It's time to say byebye to my Windows part of life because honestly, I never use it! This will free upp an entire disk for my linux OS, perfect!
 
-**Thing to consider:**
+**Things to consider:**
 
 - What Linux Distro should I use?
 - What tools do I need?
