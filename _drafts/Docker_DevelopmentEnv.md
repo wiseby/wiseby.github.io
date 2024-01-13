@@ -4,7 +4,7 @@ title:  "Docker, Run it all in a container"
 categories: ['Docker']
 ---
 
-Making a script that fires up everything a application needs, on your  machine for development and production!
+Making a script that fires up everything a application needs, on your machine for development and production!
 
 https://mariadb.com/kb/en/installing-and-using-mariadb-via-docker/
 

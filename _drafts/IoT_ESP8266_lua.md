@@ -3,7 +3,7 @@ layout: post
 title: "Lua Interpreter On ESP8266"
 ---
 
-You don't have to be stuck with Arduino and it's IDE. Me for example am not a big fan of this workflow and have missing skills in producing c++ programs.
+You don't have to be stuck with Arduino and it's IDE. Me for example am not a big fan of this workflow and have missing skills in producing C/C++ programs.
 Lua takes a little bit of distance through abstraction and makes it easier to build what you want fast.
 Lua is like Python, a Interpreted language and the syntax is similar. The most important thing is that the Lua interpreter can be flashed to a ESP8266, my favorite is the ESP-01.
 

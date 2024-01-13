@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cross-Platform development with Xamarin Forms"
-category: [.Net, "As A Student"]
+category: ["As A Student"]
 ---
 
 Hello again! Long time now see.

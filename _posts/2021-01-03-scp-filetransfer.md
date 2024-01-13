@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Secure Copy File-transfer with SSH"
-category: [Linux, Deployment]
+category: ['Command-line']
 ---
 
 SSH is a wonderful thing and I use it all the time working on servers in my home.

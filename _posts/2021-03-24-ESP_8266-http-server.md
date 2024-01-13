@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ESP8266 Http Server"
-categories: ['IoT', 'Arduino']
+categories: ['ESP 8266']
 ---
 
 
