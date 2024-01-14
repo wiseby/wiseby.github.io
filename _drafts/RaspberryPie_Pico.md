@@ -46,6 +46,10 @@ Using VS Code and the [Pymakr Extension](https://marketplace.visualstudio.com/it
 
 If you have trouble flashing, its probably a bad USB cable with missing data pins/wires. A so called charging cable.
 
+## Utilities
+
+For easier debugging and interctions to the Pico device, I suggest that you use a program called [rshell](https://github.com/dhylands/rshell). It can act as a terminal emulator to access the REPL instead of other serial communication software such as minicom, which I think is a little hard to use. The rshell is as it says a shell that can do much of the communication tasks when developing software for the device, such as sending python snippets and copying files to and from MicroPythons FileSystem. You can read more about it's capabilities on [github](https://github.com/dhylands/rshell).
+
 
 
 ### Usefull links that helped me gather information to write this post
