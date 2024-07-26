@@ -30,9 +30,9 @@ The 3D-Printer is a tool you should use to solve problems, imagine anything brea
 
 ### Quality of Life Improvments
 
-For someone like me, a often wonder about how to make things easier in my day to day life, when I struggle with anything really. The idea to make a process easier, safer,  
+For someone like me, I often wonder about how to make things easier in my day to day life, when I struggle with anything really. The idea to make a process easier, safer,  
 
-You should be able to get creative and make things with your printer that you, yes you can, use and find value in.
+You should be able to get creative and make things with your printer that you, yes you, can use and find value in.
 
 ## The speed obsesity.
 
