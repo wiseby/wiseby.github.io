@@ -5,7 +5,9 @@ categories: 'Arch Linux'
 ---
 
 - Desktop Environment: [Budgie](https://wiki.archlinux.org/title/Budgie)
+  Finally ended up with the full KDE Plasma desktop
 - Desktop Manager: [Gnome Display Manager (GDM)](https://wiki.archlinux.org/title/GDM) 
+  Finally used [SDDM](https://wiki.archlinux.org/title/SDDM) (Simple Desktop Display Manager)
 - Install bootloader [GRUB](https://wiki.archlinux.org/title/GRUB)
 - Install Drivers for Radeon GPU [here](https://wiki.archlinux.org/title/AMDGPU)
 - File Manager: [Dolphin](https://wiki.archlinux.org/title/Dolphin)
@@ -43,7 +45,7 @@ categories: 'Arch Linux'
 
 I tried to follow the arch-wiki page but I couldn't get it to work. After some searching I figured that I had issues with loading the modules to the kernel.
 
-- Insalled a custom kerner (linux-zen, which should be the one with optimized graphics available [The Zen Kernel](https://github.com/zen-kernel/zen-kernel/wiki/FAQ))
+- Installed a custom kerner (linux-zen, which should be the one with optimized graphics available [The Zen Kernel](https://github.com/zen-kernel/zen-kernel/wiki/FAQ))
 
 - Then I could install and follow the guide from the [wiki](https://wiki.archlinux.org/title/NVIDIA) to install the nvidia-dkms package.
 
@@ -57,7 +59,7 @@ From the time of writing it fixed all my issues.
 
 I had trouble with some packages when using Budgie and I was in need of a more full fledged desktop environment. I also use my steam deck many times and it runs KDE Plasma as well, so the choice was simple. Installed it with little hazzle and I was very happy with the result. 
 
-Some packages didn't come along with the DM package and had to be installed seperatly:
+Some packages didn't come along with KDE package and had to be installed seperatly:
 
 - Dolphin File Manager
 - Ark Archive Ectractor/Zip tool
@@ -85,6 +87,16 @@ installed it using the following script on github (here)[]
 
 For now everything is working relly well and Im happy with my new system. I would want to change a couple of things to make it perfect.
 
-- I dont like the look of the Display-Manager which is LightDM for the moment.
+- I dont like the look of the Display-Manager which is LightDM for the moment. Know I'm using SDDM and it's beautifull :D
 - How to handle networks, started with commandline tools like _netctl_ but installed _NetworkManager_ to work better with KDE widgets and settings, I need to clean that up a bit.
-- 
+- KDE-Plasma Wayland breaks from time to time when I upgrade the system so I have to fall back on X11. Issues can be random reboots, display stuttering among others. Sometimes it just works and I keep trying to use Wayland.
+
+## Troubleshooting Section:
+
+Here is a list of issues I stumbled apon when using archlinux. A reminder to myself and others, maybe you could find the answer for something thats troubling you as well.
+
+### Random reboots
+
+One day when I was doing some research on the web, my system reboots after about 20 minutes of use. There was no high load for the system. The only application I started was the Steam Client, Discord and Firefow Web Browser.
+I tried to identify the issues in every log I could find without any clarity. Then I checked what type of session I was using for the Desktop Environment and it was Wayland. I changed it to X11 and know, no more reboots. Maybe I'll switch back to wayland when there is a new update awailable for either KDE-Plasa or maybe the kernel itself. I could perhaps switch to the more stable linux-kernel to see if that is the issue, but for now I'm using the X11 version.
+
