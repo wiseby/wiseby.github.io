@@ -4,9 +4,9 @@ title: "Setup Factorio Server"
 categories: ["Linux"]
 ---
 
-## 🛠️ Factorio Headless Server Setup on Linux (Systemd)
+## Factorio Headless Server Setup on Linux (Systemd)
 
-### 📦 1. Create a User for the Server
+### 1. Create a User for the Server
 
 ```bash
 sudo useradd -m -r -s /bin/bash factorio
@@ -16,7 +16,7 @@ This creates a non-login system user named `factorio`.
 
 ---
 
-### 📁 2. Set Up Directory and Download Server
+### 2. Set Up Directory and Download Server
 
 ```bash
 sudo mkdir -p /opt/factorio
@@ -50,7 +50,7 @@ mv factorio/* . && rmdir factorio
 
 ---
 
-### 🧪 3. Run the Server Once to Generate Files
+### 3. Run the Server Once to Generate Files
 
 Switch to the `factorio` user and run the server once to create default files:
 
@@ -62,7 +62,7 @@ This creates a basic save file.
 
 ---
 
-### ⚙️ 4. Configure the Server
+### 4. Configure the Server
 
 Edit `/opt/factorio/data/server-settings.json` to adjust name, description, visibility, etc.
 
@@ -76,9 +76,38 @@ Edit it with:
 sudo -u factorio nano /opt/factorio/data/server-settings.json
 ```
 
+If you do not own the "Space Age" DLC or want's to create a vanilla factorio server you need to create a mod-list.json file with the following content to disable DLC specific mods:
+```json
+  "mods": 
+  [
+    
+    {
+      "name": "base",
+      "enabled": true
+    },
+    
+    {
+      "name": "elevated-rails",
+      "enabled": false
+    },
+    
+    {
+      "name": "quality",
+      "enabled": false
+    },
+    
+    {
+      "name": "space-age",
+      "enabled": false
+    }
+  ]
+}
+
+```
+
 ---
 
-### 🚀 5. Create the Start Script
+### 5. Create the Start Script
 
 Create a simple script to launch the server:
 
@@ -104,7 +133,7 @@ sudo chmod +x /opt/factorio/start-base
 
 ---
 
-### 🔧 6. Create a systemd Service
+### 6. Create a systemd Service
 
 Create the service file:
 
@@ -134,7 +163,7 @@ WantedBy=multi-user.target
 
 ---
 
-### 🔄 7. Enable and Start the Service
+### 7. Enable and Start the Service
 
 Reload systemd and start the service:
 
@@ -146,7 +175,7 @@ sudo systemctl start factorio
 
 ---
 
-### 📋 8. Check Logs and Status
+### 8. Check Logs and Status
 
 To check the status:
 
@@ -162,7 +191,7 @@ journalctl -u factorio -f -o cat
 
 ---
 
-### 🧼 9. Optional Cleanup
+### 9. Optional Cleanup
 
 Delete the downloaded archive (if you haven’t already):
 ```bash

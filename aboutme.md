@@ -21,7 +21,7 @@ Besides software-development and computers i like:
 
 The list goes on, but that was from the top of my head.
 
-Woring as a Software Developer (Fullstack) at Maksimer AB
+Working as a Software Developer (Fullstack) at Maksimer AB
 
 **My Skillset**
 * .Net Core
