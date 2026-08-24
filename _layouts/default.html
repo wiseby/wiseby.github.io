@@ -1,0 +1,53 @@
+---
+---
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+{%- comment -%}
+  LOCAL OVERRIDE of the theme's default layout.
+
+  Section identity is derived here, from the URL prefix, and passed into the
+  masthead as a parameter. It has to be a parameter: the theme renders the
+  masthead with `include_cached`, which memoises output keyed on the include's
+  params. Computing the nav key inside masthead.html instead would render it
+  once and reuse that same menu on every page.
+{%- endcomment -%}
+{%- assign nav_key = "main" -%}
+{%- if page.url contains "/verkstad/" -%}
+  {%- assign nav_key = "verkstad" -%}
+{%- elsif page.url contains "/business/" -%}
+  {%- assign nav_key = "business" -%}
+{%- endif -%}
+{%- assign nav_key = page.masthead_nav | default: nav_key -%}
+
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ locale | replace: '_', '-' | default: 'en' }}" class="no-js" dir="{{ page.direction | default: layout.direction | default: site.direction | default: 'ltr' }}">
+  <head>
+    {% include head.html locale=locale %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html locale=locale %}
+    {% include_cached masthead.html locale=locale nav_key=nav_key %}
+
+    <div class="initial-content">
+      {{ content }}
+      {% include after-content.html %}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html locale=locale %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html locale=locale %}
+      </footer>
+    </div>
+
+    {% include scripts.html locale=locale %}
+  </body>
+</html>

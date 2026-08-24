@@ -1,0 +1,36 @@
+# Three nav keys, selected by URL prefix in _includes/masthead.html:
+#   main      -> the root landing page and anything outside a section
+#   business  -> /business/*
+#   verkstaden  -> /verkstaden/*
+# Each section menu ends with a link across to the other so the two
+# sections stay reachable from one another.
+
+main:
+  - title: "WisebyDesign"
+    url: /business/
+  - title: "Verkstaden"
+    url: /verkstaden/
+
+business:
+  - title: "Services"
+    url: /business/services/
+  - title: "Articles"
+    url: /business/articles/
+  - title: "About"
+    url: /business/about/
+  - title: "Verkstaden →"
+    url: /verkstaden/
+
+verkstad:
+  - title: "Gör det själv"
+    url: /verkstaden/gor-det-sjalv/
+  - title: "Event"
+    url: /verkstaden/event/
+  - title: "Artiklar"
+    url: /verkstaden/artiklar/
+  - title: "Arkiv"
+    url: /verkstaden/arkiv/
+  - title: "Om"
+    url: /verkstaden/om/
+  - title: "Business →"
+    url: /business/
