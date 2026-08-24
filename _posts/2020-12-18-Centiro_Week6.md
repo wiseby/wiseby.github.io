@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Six"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Last days before christmas holidays!

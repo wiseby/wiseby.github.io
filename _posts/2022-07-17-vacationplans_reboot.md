@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Time for a Reboot"
-categories: ["The Journey"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ### First of all some news.

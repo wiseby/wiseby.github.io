@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Setting up initial WIFI"
-categories: ["Linux"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 # Connecting to WiFi on a Fresh Arch Linux Installation

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Thirteen"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ## Sick Week

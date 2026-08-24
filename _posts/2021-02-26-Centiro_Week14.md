@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Fourteen"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ## The Pace is Quickening!

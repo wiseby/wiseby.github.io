@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Self-Hosted Email Server"
-categories: ["Linux"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 # Self-Hosted Email Server on Ubuntu + Loopia DNS Configuration

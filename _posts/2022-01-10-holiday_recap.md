@@ -1,6 +1,8 @@
 ---
 title: "Holiday Retrospect"
-category: []
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 First working monday starts off with weak coffee. Missed one or two spoons of beans!!This is not the way starting this year!!! Have to make another pot :expressionless:

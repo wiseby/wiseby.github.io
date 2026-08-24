@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Rpi OS Installation"
-categories: ['Raspberry Pi']
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 So got my Raspberry Pie Zeros. Now they need an OS.

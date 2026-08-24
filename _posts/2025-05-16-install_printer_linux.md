@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Installing a printer in linux"
-categories: ["linux"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ### Install dependencies

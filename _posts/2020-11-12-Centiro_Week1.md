@@ -2,7 +2,9 @@
 layout: post
 title: "Centiro Internship Week One"
 date: 2020-11-12 11:44:40 +0200
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 This post is the starting point of a series about my time as an intern at Centiro Solutions.

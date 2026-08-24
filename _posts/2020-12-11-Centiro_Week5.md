@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Five"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Monday on-sight picking up USB-hub that Centiro offered to make the home-office more comfortable.

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Eighteen"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 **The Monday Feeling**

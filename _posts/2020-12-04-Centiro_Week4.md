@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Four"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Productive week and not much new to report.

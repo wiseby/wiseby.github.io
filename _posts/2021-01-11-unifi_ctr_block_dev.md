@@ -1,6 +1,8 @@
 ---
 title: "Unifi Controller Blocking Devices"
-category: [Ubiquiti]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Blocking a device is fairly simple. Go into the "Client" section on the left side menu. Here is the list of devices connected at the moment. You could also go into the "Insight" section to block devices that have been connected at any time. When you hover over the items in the list there will appear buttons on the far right, "Block" and "Reconnect". Pressing the "Block" button will prompt you with a dialog to verify the action.

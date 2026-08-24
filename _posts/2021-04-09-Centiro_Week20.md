@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Twenty"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Refactoring services and placing them in relevant modules to make the files a little bit shorter.

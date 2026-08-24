@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Centiro Internship Week Nine"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 This was going to be a week with a mixture of vacation, board-meetings and code-reviews.

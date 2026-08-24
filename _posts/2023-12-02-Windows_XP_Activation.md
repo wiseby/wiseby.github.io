@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Activating Windows XP"
-categories: ["Retro Gaming"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 A couple of months ago I installed Windows XP on my very old PC with components from 2008. My goal was to play my old favorite games from that era. 
