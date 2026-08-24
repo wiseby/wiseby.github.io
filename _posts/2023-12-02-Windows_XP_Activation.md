@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Activating Windows XP"
 categories:
   - verkstaden

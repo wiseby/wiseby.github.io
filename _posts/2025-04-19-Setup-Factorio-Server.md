@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Setup Factorio Server"
 categories:
   - verkstaden

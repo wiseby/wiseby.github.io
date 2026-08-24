@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Rpi OS Installation"
 categories:
   - verkstaden

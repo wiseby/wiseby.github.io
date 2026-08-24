@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Centiro Internship Week One"
 date: 2020-11-12 11:44:40 +0200
 categories:

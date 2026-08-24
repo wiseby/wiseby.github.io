@@ -74,7 +74,7 @@ tags:
 ```
 
 Kategorierna styr adressen, eftersom sajten använder `permalink: /:categories/:title/`.
-`[verkstad, artiklar]` ger `/verkstad/artiklar/rubriken/`.
+`[verkstad, artiklar]` ger `/verkstaden/artiklar/rubriken/`.
 
 Stäng av delarna du inte vill ha, var för sig:
 

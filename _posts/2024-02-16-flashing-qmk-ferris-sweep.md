@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Flashing QMK Firmware for Ferris Sweep"
 categories:
   - verkstaden

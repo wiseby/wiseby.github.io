@@ -1,6 +1,6 @@
 ---
-title: "Verkstad"
-permalink: /verkstad/
+title: "Verkstaden"
+permalink: /verkstaden/
 layout: archive
 author_profile: true
 locale: sv-SE

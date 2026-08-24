@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Installing a printer in linux"
 categories:
   - verkstaden

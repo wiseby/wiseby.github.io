@@ -35,7 +35,7 @@ sass:
 # Outputting
 # /:categories/:title/ is what gives section-scoped post URLs for free:
 #   categories: [business, articles] -> /business/articles/:title/
-#   categories: [verkstad, artiklar] -> /verkstad/artiklar/:title/
+#   categories: [verkstad, artiklar] -> /verkstaden/artiklar/:title/
 permalink: /:categories/:title/
 timezone: Europe/Stockholm
 

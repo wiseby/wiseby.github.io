@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Time for a Reboot"
 categories:
   - verkstaden

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Secure Copy File-transfer with SSH"
 categories:
   - verkstaden

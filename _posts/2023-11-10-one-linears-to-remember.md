@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Code & Command Vault"
 categories:
   - verkstaden

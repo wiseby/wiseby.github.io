@@ -1,6 +1,6 @@
 ---
 title: "Artiklar"
-permalink: /verkstad/artiklar/
+permalink: /verkstaden/artiklar/
 layout: archive
 author_profile: true
 locale: sv-SE

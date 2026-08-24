@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to test/debug apis with fiddler"
 categories:
   - verkstaden

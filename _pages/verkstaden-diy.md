@@ -1,6 +1,6 @@
 ---
 title: "Gör det själv"
-permalink: /verkstad/gor-det-sjalv/
+permalink: /verkstaden/gor-det-sjalv/
 layout: archive
 author_profile: true
 locale: sv-SE

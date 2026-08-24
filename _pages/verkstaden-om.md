@@ -1,6 +1,6 @@
 ---
 title: "Om"
-permalink: /verkstad/om/
+permalink: /verkstaden/om/
 layout: single
 author_profile: true
 locale: sv-SE

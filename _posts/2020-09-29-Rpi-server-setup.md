@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Rpi server setup
 category: ['Raspberry Pi']
 categories:

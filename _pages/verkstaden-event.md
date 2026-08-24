@@ -1,6 +1,6 @@
 ---
 title: "Event"
-permalink: /verkstad/event/
+permalink: /verkstaden/event/
 layout: archive
 author_profile: true
 locale: sv-SE

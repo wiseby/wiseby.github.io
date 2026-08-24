@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Intellisense on Solutions
 category: .Net
 categories:

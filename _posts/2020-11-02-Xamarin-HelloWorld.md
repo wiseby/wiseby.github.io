@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Cross-Platform development with Xamarin Forms"
 categories:
   - verkstaden

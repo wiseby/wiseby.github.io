@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Centiro Internship Week Ten"
 categories:
   - verkstaden
