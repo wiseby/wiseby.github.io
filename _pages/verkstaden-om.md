@@ -7,7 +7,7 @@ locale: sv-SE
 ---
 
 Det här är hobbydelen av sajten. Här hamnar bygg­projekt, verktyg och sådant
-jag håller på med när jag inte sitter i en integration.
+jag håller på med.
 
-Letar du efter jobbrelaterade saker? Det ligger under
+Letar du efter WisebyDesign? Det ligger under
 [Business](/business/).

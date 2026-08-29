@@ -1,6 +1,5 @@
 ---
 title: Intellisense on Solutions
-category: .Net
 categories:
   - verkstaden
   - arkiv

@@ -5,8 +5,9 @@ layout: archive
 author_profile: true
 ---
 
-Integration and platform work — Laravel, .NET, and the plumbing that connects
-webshops, ERPs, and warehouses. Mostly written up here as I go.
+3D-Printing and CAD Design.
+
+Collaborating with people to solve problems.
 
 ## Latest articles
 

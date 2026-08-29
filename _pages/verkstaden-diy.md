@@ -6,7 +6,7 @@ author_profile: true
 locale: sv-SE
 ---
 
-Byggbeskrivningar med mått, materiallistor och de misstag jag hann göra på vägen.
+Här beskriver jag hur man åstadkommer diverse och gör det möjligt för dig att göra samma sak, förhoppningsvis.
 
 {% for item in site.diy %}
   {% include archive-single.html post=item %}

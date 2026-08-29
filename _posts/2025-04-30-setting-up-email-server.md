@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Self-Hosted Email Server"
 categories:
   - verkstaden

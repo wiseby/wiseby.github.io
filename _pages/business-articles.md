@@ -5,8 +5,7 @@ layout: archive
 author_profile: true
 ---
 
-Technical write-ups: integrations, debugging, and things that broke in
-interesting ways.
+Articles and Projects.
 
 {% for post in site.categories.articles %}
   {% include archive-single.html post=post %}

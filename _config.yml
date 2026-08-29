@@ -15,7 +15,7 @@ title: Wiseby @ Github
 masthead_title: Wiseby
 description: >-
   Technical consulting, and a workshop full of side projects.
-email: l.wiseby@gmail.com
+email: designedbywiseby@gmail.com
 locale: en-US
 
 minimal_mistakes_skin: default
@@ -75,17 +75,33 @@ plugins:
 author:
   name   : "Lucas Wiseby"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Developer and tinkerer. Swedish workshop content lives over in Verkstad."
+  bio    : "Developer and tinkerer. Swedish workshop content lives over in Verkstaden."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wiseby"
+
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/wiseby_design"
+
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:designedbywiseby@gmail.com"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wiseby"
+
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/wiseby_design"
+
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:designedbywiseby@gmail.com"
 
 defaults:
   # _posts
@@ -94,10 +110,10 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
-      share: true
+      share: fasle
       related: true
   # _pages
   - scope:

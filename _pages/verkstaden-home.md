@@ -6,8 +6,9 @@ author_profile: true
 locale: sv-SE
 ---
 
-Projekt, byggen och sådant som inte hör hemma på jobbet. Mest trä, metall och
-elektronik — och en del dokumentation av misstag.
+Projekt, byggen och sådant som jag tycker är sköj!
+
+Mycket Datorer, Linux, Gaming och 3D-Printing.
 
 ## Senaste artiklarna
 

@@ -6,7 +6,7 @@ author_profile: true
 locale: sv-SE
 ---
 
-Längre texter — verktygsgenomgångar, materialval och efterkloka slutsatser.
+Längre artiklar om produkter och teknik.
 
 {% for post in site.categories.artiklar %}
   {% include archive-single.html post=post %}
