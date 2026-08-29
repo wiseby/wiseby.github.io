@@ -1,6 +1,8 @@
 ---
 title: Unifi Controller on RaspberryPi
-category: [Ubiquiti]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 **Installing Unifi Controller using the following guide:**

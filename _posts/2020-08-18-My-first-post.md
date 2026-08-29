@@ -1,7 +1,9 @@
 ---
-layout: post
 title: "My First Post!"
 date: 2020-08-18 14:07:17 +0200
+categories:
+  - verkstaden
+  - arkiv
 ---
 This is awesome! Creating a webpage under 30min (including reading documentation)! I heard alot about Jekyll but never tried it, so here we go!
 

@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Cross-Platform development with Xamarin Forms"
-category: ["As A Student"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Hello again! Long time now see.

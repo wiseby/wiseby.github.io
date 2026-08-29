@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Flashing QMK Firmware for Ferris Sweep"
-categories: ["Hardware"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ### This is how I flash my Ferris-Sweep.

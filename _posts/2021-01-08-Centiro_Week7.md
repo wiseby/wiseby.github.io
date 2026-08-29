@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Seven"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 First Monday 2021! Rallying the team and gets up to speed on what everyone has been up to for the holidays.

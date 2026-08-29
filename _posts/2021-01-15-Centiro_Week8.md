@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Eight"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ## We are writing code!!!

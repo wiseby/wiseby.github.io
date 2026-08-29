@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Code & Command Vault"
-categories: ["Programming"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ### Git

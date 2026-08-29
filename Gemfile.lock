@@ -291,11 +291,13 @@ GEM
       faraday (>= 0.17.3, < 3)
     securerandom (0.4.1)
     simpleidn (0.2.3)
-    terminal-table (1.6.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.6.0)
       ethon (>= 0.18.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    unicode-display_width (1.8.0)
     uri (1.1.1)
     wdm (0.1.1)
     webrick (1.9.2)
@@ -304,9 +306,7 @@ PLATFORMS
   aarch64-linux-gnu
   aarch64-linux-musl
   arm-linux-gnu
-  arm-linux-gnueabihf
   arm-linux-musl
-  arm-linux-musleabihf
   arm64-darwin
   x86_64-darwin
   x86_64-linux-gnu
@@ -431,9 +431,10 @@ CHECKSUMS
   sawyer (0.9.3) sha256=0d0f19298408047037638639fe62f4794483fb04320269169bd41af2bdcf5e41
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   simpleidn (0.2.3) sha256=08ce96f03fa1605286be22651ba0fc9c0b2d6272c9b27a260bc88be05b0d2c29
-  terminal-table (1.6.0) sha256=0aec9ef18a0500fd4053731e7cb4e63cc7b2eaf573fcd28be625ca13b2fb7541
+  terminal-table (1.8.0) sha256=13371f069af18e9baa4e44d404a4ada9301899ce0530c237ac1a96c19f652294
   typhoeus (1.6.0) sha256=bacc41c23e379547e29801dc235cd1699b70b955a1ba3d32b2b877aa844c331d
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
+  unicode-display_width (1.8.0) sha256=0292132d364d59fcdd83f144910c48b3c8332b28a14c5c04bb093dd165600488
   uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
   wdm (0.1.1) sha256=28406f5f236796019bea5b2a85e37cbcd229ec928c8b68261947a44eec15b474
   webrick (1.9.2) sha256=beb4a15fc474defed24a3bda4ffd88a490d517c9e4e6118c3edce59e45864131

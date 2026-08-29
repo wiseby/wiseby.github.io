@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Centiro Internship Week Sixteen"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Worked most part of the week on the Client. Refactoring to use modules with _separation of concern_ in mind. This made the code much easier to read.

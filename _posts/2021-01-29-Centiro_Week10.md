@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Ten"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Mondays starts with planning.

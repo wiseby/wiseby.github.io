@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Three"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 On my way to work monday morning accompanied by my wife who had an appointment in the city.

@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Setup Factorio Server"
-categories: ["Linux"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ## Factorio Headless Server Setup on Linux (Systemd)

@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Twelve"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ### Time For Production

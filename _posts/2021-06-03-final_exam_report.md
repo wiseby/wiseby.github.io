@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "System-Developer .Net Thesis"
-categories: ["As A Student"]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ### Summary

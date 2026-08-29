@@ -1,6 +1,8 @@
 ---
 title: More Devices from Ubiquiti
-categories: [Ubiquiti]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Yes it's time for an upgrade. Making my TV and Playstation 4 wired and pulled a cable under the lawn for high speed connectivity for the guest house.

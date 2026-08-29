@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Seventeen"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 **Cleaning the board**

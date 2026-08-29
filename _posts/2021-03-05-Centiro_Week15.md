@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Fifteen"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 ### Database framework

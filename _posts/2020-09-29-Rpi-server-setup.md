@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Rpi server setup
 category: ['Raspberry Pi']
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 So server, server, server, what to do with my buzzing server in the hallway?

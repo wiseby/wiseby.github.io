@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Centiro Internship Week Eleven"
-categories: [The Internship]
+categories:
+  - verkstaden
+  - arkiv
 ---
 
 Working alone this week when my classmate woke up with fever this morning.
