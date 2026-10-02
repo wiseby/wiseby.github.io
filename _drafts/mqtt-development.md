@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Testing and developing mqtt networks"
 categories: [IoT]
 ---

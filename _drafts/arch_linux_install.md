@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "My Arch Linux Installation"
 categories: 'Arch Linux'
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "3D-Printing rental service"
 categories: ["3d-printing"]
 ---

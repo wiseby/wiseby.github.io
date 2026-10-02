@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Lua Interpreter On ESP8266"
 ---
 

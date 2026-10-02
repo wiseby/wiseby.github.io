@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "MicroPython from source"
 categories: ['Docker']
 ---

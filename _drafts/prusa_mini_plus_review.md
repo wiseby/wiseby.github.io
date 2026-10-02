@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Prusa Mini+"
 categories: ["3D-Printing"]
 ---

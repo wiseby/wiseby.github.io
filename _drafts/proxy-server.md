@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Raspberry Pie Proxy-server"
 categories: ["Raspberry Pie", "Server"]
 ---
