@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Getting Started with Lisp"
 categories: ['lisp']
 ---

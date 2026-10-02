@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "3D Printing - Processen från start till stop"
 categories: ["3D-Printing"]
 ---

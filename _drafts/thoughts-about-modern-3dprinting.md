@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Whats going on in the 3D-Printing world!?"
 categories: ["3D-Printing"]
 ---

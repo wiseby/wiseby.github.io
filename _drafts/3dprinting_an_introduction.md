@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "3D Printing - En Introduktion"
 categories: ["3D-Printing"]
 ---
